@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.heading{
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(14, 15, 15);
+    background: rgb(100, 202, 151);
+}
+.gal_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}
+.gal_items{
+width: 270px;
+height: 230px;
+border: 1px solid rgb(49, 47, 47);
+}
+.gal_items img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.lb-details{
+    color:red;
+}
+.lb-number{
+    color: rgb(143, 143, 185) !important;
+    font-size: 20px !important;
+}
+.lb-outerContainer{
+    background: rgb(104, 163, 155) !important;
+}
+.lb-image{
+    border:4px solid aqua !important;
+}
